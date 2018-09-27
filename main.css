@@ -1,0 +1,85 @@
+html,*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+} 
+body{font-family: 'Jua', sans-serif;
+    color: rgb(49, 102, 255);
+    background: #accbee;
+    background: #ebf7f9;
+    
+    padding: 10vh 0 15vh 15vw;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.game-wrap{
+    position: relative;
+    width: 400px;
+
+}
+canvas{
+    background: white; 
+}
+
+.instructions{
+    position: absolute;
+    right:-360px;
+    top:89px;
+    
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-left: -20px;
+}
+
+.blue{
+    font-size: 50px;
+    color: rgb(49, 102, 255);
+}
+
+.green-big{
+    font-size: 55px;
+    color: rgb(0, 204, 0);
+}
+
+li{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.results{
+    visibility: hidden;
+    font-size: 50px;
+    font-weight: normal;
+    color: rgb(0, 204, 0);
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+em{
+    font-style: normal;
+    color: rgb(49, 102, 255);
+    font-size: 35px;
+}
+.play-again{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    transition: all 0.5s ease-in-out;
+}
+.green{
+    font-style: normal;
+    color: rgb(0, 204, 0);
+}
+.new:hover{
+    cursor: pointer;
+}
